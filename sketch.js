@@ -389,10 +389,7 @@ function draw(){
     textSize(100);
     text(n1,100,300);
     glow();
-    textSize(25);
-    text("Note:If you reach a ",0,400);
-    text("milestone send a photo of",0,430);
-    text("ticket on whatsapp",0,460);
+    
     play1.mousePressed(()=>{
         e1=1
         database.ref('/').update({
